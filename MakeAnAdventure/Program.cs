@@ -175,6 +175,7 @@ namespace MakeAnAdventure
             if (doorChoice == "OPEN")
             {
             Console.WriteLine("The door is locked! See if one of your three keys will open it.");
+
             Console.WriteLine("Enter a number (1-3): ");
             string keyChoice = Console.ReadLine();
             switch (keyChoice)
