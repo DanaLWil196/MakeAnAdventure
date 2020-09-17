@@ -12,7 +12,7 @@ namespace MakeAnAdventure
             Console.WriteLine($"Hello, {name}! Welcome to our story.");
             Console.WriteLine("After a long journey you finally made it to GRAND door that holds countless treasure's known to man. Do you approach it?");
             Console.Write("Type YES or NO: ");
-            Console.ForegroundColor = (ConsoleColor)randomObject.Next(20);
+            Console.ForegroundColor = (ConsoleColor)randomObject.Next(5);
             string noiseChoice = Console.ReadLine();
             Console.WriteLine(noiseChoice);
             if (noiseChoice == "NO")
